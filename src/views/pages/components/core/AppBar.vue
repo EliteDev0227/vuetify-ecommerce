@@ -1,11 +1,20 @@
 <template>
   <v-app-bar
     absolute
-    color="transparent"
+    color="black"
     flat
-    height="85"
+    height="50"
   >
     <v-container class="px-0 text-right d-flex align-center">
+      <v-row
+        align="center"
+        class="text-center"
+        justify="center"
+      >
+        FREE SHOPPING ON ALL ORDERS
+      </v-row>
+
+      <!--
       <v-toolbar-title
         class="font-weight-light hidden-xs-only"
         v-text="title"
@@ -32,6 +41,8 @@
           v-text="item.text"
         />
       </v-btn>
+
+      -->
     </v-container>
   </v-app-bar>
 </template>

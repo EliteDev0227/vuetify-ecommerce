@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import VueCarousel from 'vue-carousel'
 
 Vue.use(Vuex)
+Vue.use(VueCarousel)
 
 export default new Vuex.Store({
   state: {

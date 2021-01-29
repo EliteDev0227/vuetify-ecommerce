@@ -27,6 +27,11 @@ export default new Router({
           component: () => import('@/views/pages/Pricing'),
         },
         {
+          name: 'Store',
+          path: 'store',
+          component: () => import('@/views/pages/Store'),
+        },
+        {
           name: 'Register',
           path: 'register',
           component: () => import('@/views/pages/Register'),
